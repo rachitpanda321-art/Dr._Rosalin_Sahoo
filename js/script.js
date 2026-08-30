@@ -36,7 +36,7 @@ const researchSlides = [
 
     {
         image: "images/hero/Validation_of_IHSDT_for_FG-GPLRC_plates.jpg",
-        title: "Validation of IHSDT for bending analysis of FG-GPLRC plates"
+        title: "Validation of SFSDT for bending analysis of FG-GPLRC plates"
     },
 
     {
