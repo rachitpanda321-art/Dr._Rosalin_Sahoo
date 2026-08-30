@@ -1,0 +1,621 @@
+/* =====================================================
+   CONTACT PAGE
+===================================================== */
+
+.contact-hero {
+    padding: 90px 20px 70px;
+    background: linear-gradient(
+        135deg,
+        #f5f7fa,
+        #ffffff
+    );
+    text-align: center;
+}
+
+.contact-hero-inner {
+    max-width: 850px;
+    margin: auto;
+}
+
+.contact-kicker {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #8b1e3f;
+    margin-bottom: 15px;
+}
+
+.contact-hero h1 {
+    margin: 0 0 18px;
+    font-size: 3rem;
+    color: #18212b;
+}
+
+.contact-hero p {
+    max-width: 700px;
+    margin: auto;
+    color: #66717d;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+
+/* =====================================================
+   MAIN CONTACT SECTION
+===================================================== */
+
+.contact-section {
+    padding: 80px 20px;
+    background: #ffffff;
+}
+
+.contact-container {
+    width: min(1150px, 100%);
+    margin: auto;
+
+    display: grid;
+    grid-template-columns:
+        minmax(0, 1.15fr)
+        minmax(0, 0.85fr);
+
+    gap: 55px;
+    align-items: stretch;
+}
+
+
+/* =====================================================
+   CONTACT INFORMATION
+===================================================== */
+
+.contact-information {
+    padding: 10px 0;
+}
+
+.contact-section-title {
+    margin-bottom: 35px;
+}
+
+.contact-section-title span {
+    display: block;
+
+    font-size: 0.75rem;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    color: #8b1e3f;
+
+    margin-bottom: 12px;
+}
+
+.contact-section-title h2 {
+    margin: 0;
+
+    font-size: 2rem;
+
+    line-height: 1.25;
+
+    color: #18212b;
+}
+
+
+/* =====================================================
+   CONTACT ITEM
+===================================================== */
+
+.contact-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 22px 24px;
+
+    margin-bottom: 16px;
+
+    border: 1px solid #e5e9ee;
+
+    border-radius: 12px;
+
+    background: #ffffff;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-3px);
+
+    border-color: #cbd3dc;
+
+    box-shadow:
+        0 12px 30px rgba(24, 33, 43, 0.08);
+}
+
+
+/* =====================================================
+   ICON
+===================================================== */
+
+.contact-icon {
+    width: 48px;
+    height: 48px;
+
+    min-width: 48px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #f2f4f7;
+
+    color: #8b1e3f;
+
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+.linkedin-icon {
+    font-size: 16px;
+}
+
+
+/* =====================================================
+   ITEM CONTENT
+===================================================== */
+
+.contact-item-content {
+    min-width: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+}
+
+.contact-item-content span {
+    font-size: 0.75rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.2px;
+
+    color: #8b1e3f;
+
+    font-weight: 700;
+}
+
+.contact-item-content strong {
+    color: #1d2733;
+
+    font-size: 1rem;
+
+    line-height: 1.45;
+
+    overflow-wrap: anywhere;
+}
+
+.contact-item-content small {
+    color: #7a8490;
+
+    font-size: 0.86rem;
+}
+
+
+/* ADDRESS */
+
+.contact-address {
+    align-items: flex-start;
+}
+
+.contact-address p {
+    margin: 3px 0 0;
+
+    color: #697582;
+
+    line-height: 1.7;
+
+    font-size: 0.93rem;
+}
+
+
+/* =====================================================
+   RIGHT HIGHLIGHT CARD
+===================================================== */
+
+.contact-highlight {
+    position: relative;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            145deg,
+            #18212b,
+            #273543
+        );
+
+    color: #ffffff;
+
+    box-shadow:
+        0 20px 45px rgba(24, 33, 43, 0.16);
+}
+
+.contact-highlight::before {
+    content: "";
+
+    position: absolute;
+
+    width: 220px;
+    height: 220px;
+
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.05);
+
+    top: -100px;
+    right: -80px;
+}
+
+.contact-highlight::after {
+    content: "";
+
+    position: absolute;
+
+    width: 180px;
+    height: 180px;
+
+    border-radius: 50%;
+
+    background: rgba(139, 30, 63, 0.18);
+
+    bottom: -90px;
+    left: -70px;
+}
+
+.contact-highlight-inner {
+    position: relative;
+
+    z-index: 2;
+
+    padding: 45px;
+}
+
+
+/* =====================================================
+   PROFILE BADGE
+===================================================== */
+
+.contact-badge {
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #ffffff;
+
+    color: #8b1e3f;
+
+    font-size: 1.35rem;
+
+    font-weight: 800;
+
+    margin-bottom: 28px;
+}
+
+
+/* =====================================================
+   HIGHLIGHT TEXT
+===================================================== */
+
+.contact-highlight-kicker {
+    display: block;
+
+    font-size: 0.72rem;
+
+    letter-spacing: 2px;
+
+    color: #d6a1b3;
+
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+.contact-highlight h2 {
+    margin: 0;
+
+    font-size: 2rem;
+
+    line-height: 1.25;
+}
+
+.contact-highlight h3 {
+    margin: 8px 0 0;
+
+    font-size: 1.05rem;
+
+    font-weight: 500;
+
+    color: #dce2e7;
+}
+
+.contact-affiliation {
+    margin-top: 20px;
+
+    color: #cbd3da;
+
+    line-height: 1.7;
+
+    font-size: 0.95rem;
+}
+
+.contact-divider {
+    width: 55px;
+
+    height: 2px;
+
+    background: #d6a1b3;
+
+    margin: 28px 0;
+}
+
+.contact-description {
+    color: #c8d0d7;
+
+    line-height: 1.75;
+
+    font-size: 0.94rem;
+}
+
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+.contact-actions {
+    display: flex;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    flex-wrap: wrap;
+}
+
+.contact-button {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 9px;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-size: 0.9rem;
+
+    font-weight: 700;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease;
+}
+
+.contact-button:hover {
+    transform: translateY(-2px);
+}
+
+.contact-button.primary {
+    background: #ffffff;
+
+    color: #18212b;
+}
+
+.contact-button.secondary {
+    border: 1px solid rgba(255, 255, 255, 0.35);
+
+    color: #ffffff;
+
+    background: transparent;
+}
+
+.contact-button.secondary:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+
+/* =====================================================
+   INSTITUTION BANNER
+===================================================== */
+
+.contact-institution {
+    padding: 45px 20px;
+
+    background: #f5f7f9;
+
+    border-top: 1px solid #e5e9ed;
+}
+
+.institution-inner {
+    width: min(1050px, 100%);
+
+    margin: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+}
+
+.institution-mark {
+    width: 68px;
+    height: 68px;
+
+    min-width: 68px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background: #18212b;
+
+    color: #ffffff;
+
+    font-weight: 800;
+
+    line-height: 1;
+
+    text-align: center;
+}
+
+.institution-mark small {
+    margin-top: 4px;
+
+    font-size: 0.65rem;
+
+    letter-spacing: 1px;
+}
+
+.institution-inner span {
+    display: block;
+
+    font-size: 0.72rem;
+
+    letter-spacing: 1.7px;
+
+    color: #8b1e3f;
+
+    font-weight: 700;
+
+    margin-bottom: 6px;
+}
+
+.institution-inner h2 {
+    margin: 0;
+
+    color: #1d2733;
+
+    font-size: 1.35rem;
+}
+
+.institution-inner p {
+    margin: 5px 0 0;
+
+    color: #707b86;
+
+    font-size: 0.9rem;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.contact-footer {
+    padding: 25px 20px;
+
+    text-align: center;
+
+    background: #18212b;
+
+    color: #bfc8d0;
+
+    font-size: 0.82rem;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .contact-container {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .contact-highlight {
+        max-width: 700px;
+
+        width: 100%;
+
+        margin: auto;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .contact-hero {
+        padding: 65px 20px 50px;
+    }
+
+    .contact-hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .contact-section {
+        padding: 55px 16px;
+    }
+
+    .contact-item {
+        padding: 18px;
+
+        gap: 14px;
+    }
+
+    .contact-icon {
+        width: 42px;
+        height: 42px;
+
+        min-width: 42px;
+    }
+
+    .contact-highlight-inner {
+        padding: 30px 25px;
+    }
+
+    .contact-highlight h2 {
+        font-size: 1.65rem;
+    }
+
+    .institution-inner {
+        align-items: flex-start;
+    }
+
+}

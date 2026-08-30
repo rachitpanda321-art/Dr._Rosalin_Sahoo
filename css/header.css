@@ -1,0 +1,133 @@
+/* =====================================================
+   COMPACT HEADER
+===================================================== */
+
+.compact-header {
+    width: 100%;
+
+    background: #ffffff;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.compact-header-inner {
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    min-height: 78px;
+
+    padding: 12px 5%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 30px;
+}
+
+
+/* =====================================================
+   NAME AND AFFILIATION
+===================================================== */
+
+.header-profile h1 {
+    margin: 0 0 4px;
+
+    font-size: 23px;
+
+    font-weight: 700;
+
+    line-height: 1.2;
+}
+
+
+.header-profile span {
+    font-size: 13px;
+
+    line-height: 1.4;
+
+    color: #666666;
+}
+
+
+/* =====================================================
+   WELCOME MESSAGE
+===================================================== */
+
+.welcome-message {
+    text-align: right;
+
+    white-space: nowrap;
+}
+
+
+.welcome-message span {
+    font-size: 15px;
+
+    font-weight: 600;
+
+    letter-spacing: 0.3px;
+}
+
+
+/* =====================================================
+   REMOVE OLD LARGE HEADER
+===================================================== */
+
+.header-background {
+    display: none;
+}
+
+
+/* =====================================================
+   NAVIGATION
+===================================================== */
+
+.navbar {
+    width: 100%;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .compact-header-inner {
+        min-height: auto;
+
+        padding: 14px 20px;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 7px;
+    }
+
+
+    .header-profile h1 {
+        font-size: 20px;
+    }
+
+
+    .header-profile span {
+        font-size: 12px;
+    }
+
+
+    .welcome-message {
+        text-align: left;
+    }
+
+
+    .welcome-message span {
+        font-size: 14px;
+    }
+
+}
