@@ -46,7 +46,7 @@ const researchSlides = [
 
     {
         image: "images/hero/Few_research_papers.png",
-        title: "Research highlights"
+        title: "Few selected research papers"
     },
 
     {
